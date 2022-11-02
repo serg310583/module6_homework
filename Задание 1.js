@@ -10,7 +10,7 @@ function getElements () {
   
   for (let i=0; i <arr.length; i++) {                    
     let n = arr[i];  
-    if (n%2==0) if (n != 0) if (n != null) {    
+    if (n%2==0 && n != 0 && n != null) {    
         countEven++;
       }  
     if (n%2==1) {                                        
